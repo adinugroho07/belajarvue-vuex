@@ -66,7 +66,7 @@ const counterState = {
         1. commit --> di gunakan untuk mentrigger commit, ex -> context.commit('nama mutations');
         2. dispatch --> kita bisa dispatch actions yang lain di dalam actions. ex -> context.dispatch('nama action lain');
         3. getters --> kita juga bisa mengakses gettes jika kita memerlukan data dari state tapi dengna format yang berbeda.
-                       ex -> context.getters('nama getters');
+                       ex -> context.getters['nama getters'];
         4. root getters --> 
         5. root state --> 
         6. state --> ini tidak boleh di update directly, harus lewat mutations. tapi jika kita membutuhkan data dari state langsungan
